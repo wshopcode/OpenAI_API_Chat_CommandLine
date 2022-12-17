@@ -28,7 +28,8 @@ OR
 
 STEP 4
 create a python file and include the code below
-**import os
+```
+import os
 import openai
 
 **openai.api_key = 'PUT_API_KEY_HERE'
@@ -39,7 +40,8 @@ import openai
                                            engine="text-davinci-003",
                                            max_tokens=100)
     completion = completions.choices[0].text
-    print(completion)**
+    print(completion)
+```
     
 STEP 5
 Save the python script and run it from the command line!
