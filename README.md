@@ -15,10 +15,11 @@ You'll need to sign up to use the OpenAI API. At the time of writing this, a fre
 STEP 2
 Once you've signed up, you'll want to find your API key and export it as an environment variable. It should look something like this:
 
-**export OPENAPI_API_KEY=sk-YDY6F73RKyBAFz4uiMNuaE2budH2QDNXkKUH6Zdq9WuLteRd**
+```export OPENAPI_API_KEY='PUT_API_KEY_HERE'```
+
 OR
 you can include the API KEY as an absolute path in the script in step 3 below(this is not recommended for security reasons). It should look something like this:
-**openai.api_key = 'PUT_API_KEY_HERE'**
+```openai.api_key = 'PUT_API_KEY_HERE'```
 
 STEP 3
 install Open AI via terminal
