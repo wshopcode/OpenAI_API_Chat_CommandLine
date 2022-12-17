@@ -23,9 +23,9 @@ you can include the API KEY as an absolute path in the script in step 3 below(th
 
 STEP 3
 install Open AI via terminal
-**py -m pip install openai**
+```py -m pip install openai```
 OR
-**py pip install openai**
+```py pip install openai```
 
 STEP 4
 create a python file and include the code below
